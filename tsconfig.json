@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "types/*"
+      ],
+      "actions/*": [
+        "./actions/*"
+      ],
+      "api/*": [
+        "./api/*"
+      ],
+      "assets/*": [
+        "./assets/*"
+      ],
+      "components/*": [
+        "./components/*"
+      ],
+      "navigation/*": [
+        "./navigation/*"
+      ],
+      "reducers/*": [
+        "./reducers/*"
+      ],
+      "sagas/*": [
+        "./sagas/*"
+      ],
+      "screens/*": [
+        "./screens/*"
+      ],
+      "store/*": [
+        "./store/*"
+      ],
+      "utils/*": [
+        "./utils/*"
+      ]
+    }
+  },
+  "extends": "@react-native/typescript-config/tsconfig.json"
+}
