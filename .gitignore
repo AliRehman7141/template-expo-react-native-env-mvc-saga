@@ -80,5 +80,5 @@ dist/
 web-build/
 
 # Env
-.env
 ios/tmp.xcconfig
+config.bat
